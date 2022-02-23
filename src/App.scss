@@ -1,0 +1,154 @@
+body,
+html {
+  padding: 0px;
+  background-color: #fbfbfb;
+  margin: 0px;
+}
+.form {
+  margin: 12px auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 2px solid pink;
+  margin-top: 24px;
+  background-color: #fff;
+  .sub-title {
+    margin-bottom: 12px;
+  }
+  p {
+    Link {
+      text-decoration: none;
+    }
+    span {
+      color: crimson;
+      font-weight: 550;
+      text-decoration: none;
+      &:hover {
+        transition: 0.25s;
+        color: gray;
+      }
+    }
+  }
+  h1 {
+    margin-bottom: 12px;
+    align-self: center;
+    color: #242424;
+  }
+  input {
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    outline: none;
+    opacity: 90%;
+    border: 1px solid #303030;
+  }
+  button {
+    font-size: 16px;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border-width: 0px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    &:hover {
+      background-color: rgb(231, 37, 53);
+      transition: 0.3s;
+      cursor: pointer;
+    }
+  }
+}
+h1,
+h2,
+h3,
+h4,
+p,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  border-bottom: 1px solid crimson;
+  background-color: #fff;
+  .h-container {
+    padding: 8px 0;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.m-container {
+  margin: 0px auto;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .listing {
+    cursor: pointer;
+    margin: 20px auto;
+    box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.08);
+    width: 300px;
+    &:hover {
+      transition: 0.25s;
+      box-shadow: 0px 1px 15px 5px rgba(0, 0, 0, 0.12);
+    }
+    .image-container {
+      height: 200px;
+      background-color: blue;
+    }
+    .text-container {
+      padding: 12px;
+      .title {
+        font-size: 20px;
+        font-weight: 550;
+      }
+    }
+  }
+}
+.signup-call {
+  margin: 20px auto;
+  color: #fff;
+  font-weight: 550;
+  padding: 16px 24px;
+  background-color: gray;
+  &:hover {
+    transition: 0.25s;
+    background-color: crimson;
+    cursor: pointer;
+  }
+}
+.note {
+  h2 {
+    margin-bottom: 10px;
+    color: crimson;
+  }
+  width: 300px;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: #f0f0f0;
+  .subtitle {
+    color: rgb(59, 0, 0);
+  }
+  span {
+    font-weight: 600;
+  }
+}
